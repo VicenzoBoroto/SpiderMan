@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    border:0;
+}
+
+body {
+    background-image:linear-gradient(90deg, rgba(11, 12, 16, 0.6) 0%, rgba(11, 12, 16, 0.4) 52.08%, rgba(12, 12, 16, 0.6) 100%), url(/img/spider-man-miles-morales-4k-2020-ix-1920x1080\ 1.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+} 
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 92.7%;
+    height: 100px;
+    background: rgba(29, 29, 29, 0.5);
+    position: fixed;
+    right: 0px;
+}
+
+
+.spider-icon {
+    margin-left: 130px;
+}
+
+.menu {
+    display:flex;
+    align-items: center;
+    justify-content: end;
+    gap: 58px;
+    font-family: 'Sora', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+
+.home, .sinopse, .elenco {
+    text-decoration: none;
+    color: #F9F9F9;
+    transition: filter 0.2s;
+}
+
+.home:hover, .sinopse:hover, .elenco:hover {
+    filter: brightness(1.2)
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    margin-top: 0;
+    width: 100px;
+    height: 100%;
+    background: rgba(29, 29, 29, 0.5);
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.perfil {
+    margin-top: 25px;
+    width: 50px;
+    height: 50px;
+}
+
+.redes-sociais {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 80px;
+}
+
+.pesquisa {
+    margin-bottom: 40px;
+}
+
+.titulo {
+    position: absolute;
+    width: 569.63px;
+    height: 214px;
+    top: 40%;
+    left:30%;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 29px;
+    position: absolute;
+    top: 75%;
+    left:38%;
+    background: #1D1D1D;
+    border: 2px solid #EC111A;
+    box-sizing: border-box;
+    width: 350px;
+    height: 70px;
+    font-family: 'Sora', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #F9F9F9;
+}
+
+.botao {
+    text-decoration: none;
+    color: #F9F9F9;
+}
